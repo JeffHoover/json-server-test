@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "options": {
+      "the_repo": null,
+      "the_repo_dir": "../Studios-private-test-data--lottie-ios-swift",
+      "language": [
+        "swift",
+        "javascript"
+      ],
+      "metric_types": [
+        "balance",
+        "complexity",
+        "fan_out",
+        "method_lines"
+      ],
+      "starting_sha": null,
+      "num_steps": 10,
+      "file_base_name": "lottie10",
+      "data_dump": true,
+      "generate_graphs": true,
+      "output_folder": "full_results"
+    },
+    "version": "MacLeod",
+    "execution_time": "2021-05-19T08:24:47-04:00",
+    "tools": {
+      "pip": {
+        "adjustText": "0.7.3",
+        "astroid": "2.5.6",
+        "attrs": "20.3.0",
+        "bandit": "1.7.0",
+        "behave": "1.2.6",
+        "build": "0.3.1.post1",
+        "coverage": "5.4",
+        "cycler": "0.10.0",
+        "dataclasses": "0.6",
+        "dateutils": "0.6.12",
+        "dill": "0.2.5",
+        "future": "0.18.2",
+        "gitdb": "4.0.5",
+        "GitPython": "3.1.14",
+        "importlib-metadata": "4.0.1",
+        "iniconfig": "1.1.1",
+        "isort": "5.7.0",
+        "joblib": "1.0.1",
+        "kiwisolver": "1.3.1",
+        "lazy-object-proxy": "1.4.3",
+        "matplotlib": "3.4.1",
+        "mccabe": "0.6.1",
+        "metrics @ file:///Users/jeffhoover/Documents/projects/code-analysis/dist/metrics-0.2-py3-none-any.whl": "UNKNOWN",
+        "numpy": "1.20.2",
+        "packaging": "20.9",
+        "pandas": "1.2.4",
+        "parse": "1.19.0",
+        "parse-type": "0.5.2",
+        "patsy": "0.5.1",
+        "pbr": "5.5.1",
+        "pep517": "0.10.0",
+        "Pillow": "8.1.0",
+        "pip": "21.1.1",
+        "pluggy": "0.13.1",
+        "py": "1.10.0",
+        "py-gnuplot": "1.1.7",
+        "PyFunctional": "1.2.0",
+        "pygit": "0.1",
+        "pygraphviz": "1.5",
+        "pylint": "2.8.2",
+        "pyparsing": "2.4.7",
+        "pytest": "6.2.3",
+        "pytest-cov": "2.11.1",
+        "pytest-mock": "3.6.0",
+        "pytest-randomly": "3.7.0",
+        "python-dateutil": "2.8.1",
+        "pytz": "2021.1",
+        "PyYAML": "5.4.1",
+        "rope": "0.18.0",
+        "scikit-learn": "0.24.1",
+        "scipy": "1.6.1",
+        "setuptools": "56.2.0",
+        "setuptools-declarative-requirements": "1.2.0",
+        "six": "1.15.0",
+        "smmap": "3.0.5",
+        "statsmodels": "0.12.2",
+        "stevedore": "3.3.0",
+        "swift-code-metrics": "1.5.1",
+        "tabulate": "0.8.7",
+        "threadpoolctl": "2.1.0",
+        "toml": "0.10.2",
+        "wheel": "0.36.2",
+        "wrapt": "1.12.1",
+        "zipp": "3.4.1"
+      },
+      "brew": {
+        "checkstyle": "8.42",
+        "cmake": "3.20.2",
+        "detekt": "1.16.0",
+        "eslint": "7.25.0",
+        "graphviz": "2.47.1",
+        "pyenv": "1.2.27",
+        "rbenv": "1.1.2",
+        "swiftlint": "0.43.1",
+        "openssl": "openssl@1.1 1.1.1k"
+      },
+      "languages": {
+        "java": {
+          "versions": [
+            "openjdk 15.0.1 2020-10-20",
+            "OpenJDK Runtime Environment (build 15.0.1+9-18)",
+            "OpenJDK 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)"
+          ]
+        },
+        "swift": {
+          "versions": [
+            "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+            "Target: x86_64-apple-darwin19.6.0"
+          ]
+        },
+        "python": "3.9.0",
+        "ruby": "3.0.1p64"
+      },
+      "other": {
+        "openssl": "2.8.3",
+        "git": "2.31.1",
+        "checkstyle": "8.42",
+        "pyenv": "1.2.27",
+        "rbenv": "1.1.2",
+        "cmake": "3.20.2",
+        "node": "v16.1.0",
+        "detekt": "1.16.0",
+        "swiftlint": "0.43.0-LeadingAgile",
+        "eslint": "v7.25.0"
+      }
+    }
+  },
+  "data": {
+    "complexity": [
+      {
+        "revision_hash": "11d518841365b85b0dca7f7a55174d12911f05a0",
+        "datetime": "2020-11-21T10:26:06-06:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "ebc0f1ce8dd0e7edd491a7573ffc40f7c528967a",
+        "datetime": "2020-11-09T16:23:11-06:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "e02e82c7c1b472e85e641a7624e99c855e21add1",
+        "datetime": "2020-11-02T10:20:30-06:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "26d33d92bb0311a266f2fed6fe3453c718fafabb",
+        "datetime": "2020-10-19T11:01:48-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "7b796eb0efdee43458dcee3adda33dd4d80d4402",
+        "datetime": "2020-09-28T22:52:07+09:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "1692cb4d0fcf0406dcaf61bf7cafea49dca51354",
+        "datetime": "2020-08-31T09:47:20-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "ed31fa34aa60651e5385ee1b1d0b013aa03b0c0d",
+        "datetime": "2020-08-21T14:19:23-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "8def94c0fc611c548c983f19127f861573e73375",
+        "datetime": "2020-08-05T13:47:54-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "203eda1620e6c6fb01b4f41be82f492ffa63a490",
+        "datetime": "2020-07-19T21:18:41+08:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      },
+      {
+        "revision_hash": "eebcf80fa5c502159f9f61cbf84551766d8e2832",
+        "datetime": "2020-07-06T13:26:59-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0
+      }
+    ],
+    "method_lines": [
+      {
+        "revision_hash": "11d518841365b85b0dca7f7a55174d12911f05a0",
+        "datetime": "2020-11-21T10:26:06-06:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "ebc0f1ce8dd0e7edd491a7573ffc40f7c528967a",
+        "datetime": "2020-11-09T16:23:11-06:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "e02e82c7c1b472e85e641a7624e99c855e21add1",
+        "datetime": "2020-11-02T10:20:30-06:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "26d33d92bb0311a266f2fed6fe3453c718fafabb",
+        "datetime": "2020-10-19T11:01:48-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "7b796eb0efdee43458dcee3adda33dd4d80d4402",
+        "datetime": "2020-09-28T22:52:07+09:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "1692cb4d0fcf0406dcaf61bf7cafea49dca51354",
+        "datetime": "2020-08-31T09:47:20-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "ed31fa34aa60651e5385ee1b1d0b013aa03b0c0d",
+        "datetime": "2020-08-21T14:19:23-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "8def94c0fc611c548c983f19127f861573e73375",
+        "datetime": "2020-08-05T13:47:54-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "203eda1620e6c6fb01b4f41be82f492ffa63a490",
+        "datetime": "2020-07-19T21:18:41+08:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      },
+      {
+        "revision_hash": "eebcf80fa5c502159f9f61cbf84551766d8e2832",
+        "datetime": "2020-07-06T13:26:59-05:00",
+        "mean": 0,
+        "median": 0,
+        "mode": 0,
+        "min": 0,
+        "max": 0,
+        "stdev": 0,
+        "max_method": []
+      }
+    ]
+  }
+}
